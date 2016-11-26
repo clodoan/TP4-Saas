@@ -1,0 +1,44 @@
+
+.main {
+  background: linear-gradient(to right, rgba(12,180,206,0.8), rgba(16,128,208,0.8)), url("../images/photo.jpg") no-repeat center;
+  background-size: cover;
+  height: 900px;
+
+  .title {
+    text-align: center;
+
+    h1 {
+      font-size: 60px;
+      font-family: serif;
+      color: white;
+      padding-top: 300px;
+      font-weight: lighter;
+    }
+  }
+
+  input[type='submit'] {
+    @include boton(rgba(0,0,0,0));
+  }
+}
+
+nav {
+  padding: 20px 40px 0px 0px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    @extend %letrainterna;
+  }
+
+  li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 10px;
+  }
+
+  img {
+    margin-left: 40px;
+  }
+}

@@ -1,0 +1,9 @@
+@mixin boton($color){
+  border: 2px solid white;
+  border-radius: 84px;
+  background: $color;
+  height: 47px;
+  margin: 60px;
+  padding: 10px 30px 10px 30px;
+  @extend %letrainterna;
+}
