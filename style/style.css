@@ -83,7 +83,7 @@ ul {
   padding: 0px; }
 
 .container {
-  max-width: 1100px;
+  width: 80%;
   margin: auto; }
 
 .main {
@@ -116,17 +116,24 @@ nav {
   nav li {
     display: inline-block;
     list-style-type: none;
-    margin-left: 10px; }
+    margin-left: 30px; }
   nav img {
-    margin-left: 40px; }
+    margin-left: 40px;
+    width: 100px; }
 
 .projects {
   margin-top: -150px; }
   .projects .projects__items {
     background: white;
-    height: 900px;
-    margin-top: 40px; }
+    margin-top: 40px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row; }
+    .projects .projects__items .project__items__item {
+      max-width: 33.33333%; }
+    .projects .projects__items img {
+      max-width: 100%; }
   .projects ul {
-    margin-left: -10px; }
+    margin-left: -30px; }
 
 /*# sourceMappingURL=style.css.map */
