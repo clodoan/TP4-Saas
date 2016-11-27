@@ -12,6 +12,15 @@
 
     img {
       max-width: 33.333%;
+
+      @media (max-width: 800px) {
+        max-width: 50%;
+      }
+
+      @media (max-width: 600px) {
+        max-width: 100%;
+      }
+
     }
   }
 

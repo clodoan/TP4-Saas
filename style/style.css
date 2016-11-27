@@ -103,6 +103,16 @@ ul {
       color: white;
       padding-top: 300px;
       font-weight: lighter; }
+      @media (max-width: 900px) {
+        .main .title h1 {
+          font-size: 50px;
+          padding-top: 200px; } }
+      @media (max-width: 600px) {
+        .main .title h1 {
+          font-size: 40px;
+          padding-top: 200px;
+          max-width: 80%;
+          margin: auto; } }
   .main input[type='submit'] {
     border: 2px solid white;
     border-radius: 84px;
@@ -110,6 +120,12 @@ ul {
     height: 47px;
     margin: 60px;
     padding: 10px 30px 10px 30px; }
+    @media (max-width: 900px) {
+      .main input[type='submit'] {
+        margin: 90px; } }
+    @media (max-width: 600px) {
+      .main input[type='submit'] {
+        margin: 90px; } }
 
 nav {
   padding: 20px 40px 0px 0px;
@@ -138,6 +154,12 @@ nav {
     align-items: center; }
     .projects .projects__items img {
       max-width: 33.333%; }
+      @media (max-width: 800px) {
+        .projects .projects__items img {
+          max-width: 50%; } }
+      @media (max-width: 600px) {
+        .projects .projects__items img {
+          max-width: 100%; } }
   .projects ul {
     margin-left: -30px; }
   .projects input {
@@ -147,5 +169,11 @@ nav {
     height: 47px;
     margin: 60px;
     padding: 10px 30px 10px 30px; }
+    @media (max-width: 900px) {
+      .projects input {
+        margin: 90px; } }
+    @media (max-width: 600px) {
+      .projects input {
+        margin: 90px; } }
 
 /*# sourceMappingURL=style.css.map */
